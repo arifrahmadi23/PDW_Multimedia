@@ -1,0 +1,55 @@
+/* Body Styling */
+body {
+    background-image: url(assets/MetallicaLoad.jpeg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Arial Black', sans-serif; 
+    color: #fff;
+    padding: 20px;
+}
+
+/* Heading 1 Styling */
+h1 {
+    font-family: 'Impact', sans-serif; 
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 30px; 
+    border: 3px solid #000;
+    background: #333;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 0 auto;
+    max-width: 1200px;
+    
+}
+
+h2 {
+    font-family: 'Arial Black', sans-serif; 
+    letter-spacing: 2px; 
+    text-transform: uppercase;
+    text-align: center;
+    border: 3px solid #000; 
+    background: #333; 
+    color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;
+    padding: 15px 30px; 
+    cursor: pointer;
+    margin: 0 auto;
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+
+video,
+audio {
+    display: block;
+    margin: 0 auto 30px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
